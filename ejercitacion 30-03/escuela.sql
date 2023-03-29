@@ -33,11 +33,11 @@ CREATE TABLE `alumnos` (
   `apellido` varchar(30) NOT NULL,
   `fecha_nac` date NOT NULL,
   `email` varchar(200) NOT NULL,
-  `direc_calle` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `direc_calle` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
   `direc_nro` int NOT NULL,
-  `direc_prov` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `direc_prov` varchar(30) CHARACTER SET utf8mb4 NOT NULL,
   `curso` varchar(4) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `alumnos`
@@ -106,7 +106,7 @@ CREATE TABLE `cursos` (
   `anio` int NOT NULL,
   `letra` varchar(1) NOT NULL,
   `especialidad` varchar(2) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `cursos`
@@ -177,11 +177,11 @@ INSERT INTO `cursos` (`codigo`, `anio`, `letra`, `especialidad`) VALUES
 
 CREATE TABLE `especialidades` (
   `id` varchar(2) NOT NULL,
-  `nombre_corto` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `nombre_corto` varchar(15) CHARACTER SET utf8mb4 NOT NULL,
   `nombre_largo` varchar(80) NOT NULL,
   `piso` int NOT NULL,
   `edificio` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `especialidades`
@@ -205,7 +205,7 @@ CREATE TABLE `materias` (
   `nombre` varchar(50) NOT NULL,
   `anio` int NOT NULL,
   `especialidad` varchar(2) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `materias`
@@ -238,7 +238,7 @@ CREATE TABLE `profesores` (
   `direc_nro` int NOT NULL,
   `direc_prov` varchar(30) NOT NULL,
   `email` varchar(200) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `profesores`
