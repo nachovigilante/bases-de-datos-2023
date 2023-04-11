@@ -1,3 +1,10 @@
+# Notas del TP1 - 4°E
+
+## Aclaraciones
+
+Los trabajos están aprobados a partir de la nota **Regular**.
+Los trabajos que no están entregados hacen que el alumno desapruebe el bimestre, a no ser que entregue el trabajo en la fecha de recuperatorio (a designar).
+
 | Nombre y apellido                | TP1          | TP1 - Nota   | TP1 - Comentarios                                                                                                                                                                   |
 | -------------------------------- | ------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ALAMOS JUAN BAUTISTA             | Entregado    | Regular      | Ojo con la relación 1-1 en el DLR<br>Falta una relación de 1-M en el DER                                                                                                            |
