@@ -1,4 +1,4 @@
-# Corrección TP2 | Fernandez - Levy - Tasso
+# Corrección TP2 | Ceglie - Fernandez - Levy - Tasso
 
 | Ejercicio    | Nota    |
 | ------------ | ------- |

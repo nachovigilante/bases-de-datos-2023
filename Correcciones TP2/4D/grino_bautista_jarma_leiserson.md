@@ -1,4 +1,4 @@
-# Corrección TP2 | Grino - Jarma - Bautista
+# Corrección TP2 | Grino - Jarma - Bautista - Leiserson
 
 | Ejercicio    | Nota    |
 | ------------ | ------- |
