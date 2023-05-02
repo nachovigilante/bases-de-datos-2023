@@ -1,4 +1,4 @@
-# Corrección TP2 | Estrugo - Occofer
+# Corrección TP2 | Desimone - Estrugo - Occofer - Terciana
 
 | Ejercicio    | Nota    |
 | ------------ | ------- |
