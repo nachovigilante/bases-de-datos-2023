@@ -14,20 +14,23 @@ Implementar las siguientes funciones en PHP:
 2. showArray( _array_ )
    Esta función recibe un array y lo muestra.
 
-3. showAssociative( _array_ )
-   Esta función recibe un array asociativo y luego muestra todos los pares clave-valor.
-
-4. totalSum( _array_ )
+3. totalSum( _array_ )
    Esta función recibe un array y devuelve (no muestra) la suma total de sus elementos.
 
-5. evens( _array_ ) / odds( _array_ )
+4. evens( _array_ ) / odds( _array_ )
    Estas funciones reciben un array y devuelven los elementos pares/impares del mismo.
 
-6. stringToArray( _string_ )
+5. stringToArray( _string_ )
    Esta función recibe un string y devuelve un array que tiene en cada posición a cada letra del string.
+
+6. charCount( _string_ ) (**Desafiante**)
+   Esta función recibe un string y devuelve un array asociativo con cada caracter del string como clave, y el valor correspondiente será la cantidad de veces que aparece en el mismo.
 
 7. charCount( _string_ ) (**Desafiante**)
    Esta función recibe un string y devuelve un array asociativo con cada caracter del string como clave, y el valor correspondiente será la cantidad de veces que aparece en el mismo.
+
+8. showAssociative( _array_ )
+   Esta función recibe un array asociativo y luego muestra todos los pares clave-valor.
 
 ## Ejercicio final
 
