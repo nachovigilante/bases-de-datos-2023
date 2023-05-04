@@ -1,5 +1,9 @@
 # Ejercitación 1 PHP
 
+## Grupos
+
+Realizar en grupos de mínimo 2 máximo 3 integrantes.
+
 ## Ejercicios de funciones
 
 Implementar las siguientes funciones en PHP:
