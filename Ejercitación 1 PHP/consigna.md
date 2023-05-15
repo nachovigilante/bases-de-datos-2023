@@ -26,10 +26,7 @@ Implementar las siguientes funciones en PHP:
 6. charCount( _string_ ) (**Desafiante**)
    Esta función recibe un string y devuelve un array asociativo con cada caracter del string como clave, y el valor correspondiente será la cantidad de veces que aparece en el mismo.
 
-7. charCount( _string_ ) (**Desafiante**)
-   Esta función recibe un string y devuelve un array asociativo con cada caracter del string como clave, y el valor correspondiente será la cantidad de veces que aparece en el mismo.
-
-8. showAssociative( _array_ )
+7. showAssociative( _array_ )
    Esta función recibe un array asociativo y luego muestra todos los pares clave-valor.
 
 ## Ejercicio final
