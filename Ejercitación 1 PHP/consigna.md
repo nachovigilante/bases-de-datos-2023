@@ -1,8 +1,14 @@
 # Ejercitación 1 PHP
 
-## Grupos
+## Informativo
+
+### Grupos
 
 Realizar en grupos de mínimo 2 máximo 3 integrantes.
+
+### Fecha de entrega
+
+El TP se puede entregar hasta el viernes 19/05/2023 a las 23:59hs.
 
 ## Ejercicios de funciones
 
@@ -32,3 +38,7 @@ Implementar las siguientes funciones en PHP:
 ## Ejercicio final
 
 Crear un nuevo archivo llamado "useful_functions.php", en el cual pondrán todas las funciones anterior listadas. Para probar las mismas, crearán otro archivo llamado "ejercitacion1.php" e incluirán el anterior. (Usar "include")
+
+## Entrega
+
+Solo se entregará el archivo "useful_functions.php" y recordar que no debe contener más código que el necesario para crear las distintas funciones.
