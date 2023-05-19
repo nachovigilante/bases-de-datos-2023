@@ -14,4 +14,4 @@
 | Ejercicio 10 | Bien    |
 | Bonus 1      | Mal     |
 | Bonus 2      | Bien    |
-| Nota final   | Copiado |
+| Nota final   | 9       |
