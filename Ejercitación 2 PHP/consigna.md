@@ -15,7 +15,7 @@ Hacer un formulario en HTML que permita registrarse a un usuario ingresando:
 - Provincia (`<select>`)
 - Su color favorito
 - Si será una cuenta de tipo personal o de empresa (_radio buttons_)
-- Algunos de 10 intereses
+- Algunos de 10 intereses (`<checkbox>`)
 
 ## 2) Recepción de la request
 
