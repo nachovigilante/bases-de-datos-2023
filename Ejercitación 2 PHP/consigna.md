@@ -56,3 +56,5 @@ Cuando enviamos el formulario con algún error, al recargarse la página se borr
     value="<?php if(isset($_POST['nombre'])) echo $_POST['nombre']; ?>"
 >
 ```
+
+Investigar por su cuenta cómo funciona `checked` y `selected` para los `checkbox`, los `radios` y las `options`.
