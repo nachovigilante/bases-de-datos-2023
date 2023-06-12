@@ -42,3 +42,17 @@ En la sección de PHP crear un array `errores` en la que guarde los errores de c
 Mostrar los errores para que los pueda ver el usuario en una lista (`<ul>`) en una sección entre los inputs y el botón de envío. Esta sección debe tener el subtítulo "Errores" y debe aparecer únicamente si hay errores.
 
 Si no hay errores, redireccionar al usuario a una nueva página `"exito.php"`. Por ahora, puede decir únicamente "Se ha registrado con éxito!".
+
+## 4.5) Persistencia de datos
+
+Cuando enviamos el formulario con algún error, al recargarse la página se borran los datos que habíamos introducido. En este punto hay que lograr que se vuelvan a ingresar automáticamente. Esto se logra utilizando `php` para ingresar los valores nuevamente, por ejemplo:
+
+```html
+<input 
+    type="text" 
+    name="nombre" 
+    id="nombre" 
+    placeholder="Nombre"
+    value="<?php if(isset($_POST['nombre'])) echo $_POST['nombre']; ?>"
+>
+```
