@@ -58,3 +58,8 @@ Cuando enviamos el formulario con algún error, al recargarse la página se borr
 ```
 
 Investigar por su cuenta cómo funciona `checked` y `selected` para los `checkbox`, los `radios` y las `options`.
+
+## 5) Login
+
+- Crear un formulario de login con nombre de usuario y contraseña en una nueva página `login.php`.
+- Ahora usar la conexión con la base de datos para verificar si existe el usuario y si su contraseña coincide con la de ese usuario.
