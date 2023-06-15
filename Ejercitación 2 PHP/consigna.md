@@ -62,4 +62,7 @@ Investigar por su cuenta cómo funciona `checked` y `selected` para los `checkbo
 ## 5) Login
 
 - Crear un formulario de login con nombre de usuario y contraseña en una nueva página `login.php`.
-- Ahora usar la conexión con la base de datos para verificar si existe el usuario y si su contraseña coincide con la de ese usuario.
+- Ahora usar la conexión con la base de datos (la que se encuentra en esta misma carpeta del repositorio `users.sql`) para verificar si existe el usuario y si su contraseña coincide con la de ese usuario.
+- Recordar enviar los datos por `POST` y se puede utilizar el mismo archivo para hacer la verificación.
+- Cuando un usuario se loguea correctamente enviar a una nueva página `exito_login.php`.
+- Cuando el usuario o la contraseña no coinciden mostrar un error.
