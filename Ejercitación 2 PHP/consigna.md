@@ -66,3 +66,9 @@ Investigar por su cuenta cómo funciona `checked` y `selected` para los `checkbo
 - Recordar enviar los datos por `POST` y se puede utilizar el mismo archivo para hacer la verificación.
 - Cuando un usuario se loguea correctamente enviar a una nueva página `exito_login.php`.
 - Cuando el usuario o la contraseña no coinciden mostrar un error.
+
+## 6) Registro funcional
+
+- Agregar un usuario y contraseña a los campos del formulario de registro.
+- Agregar todos los datos del formulario de registro como columnas en la tabla de la base de datos.
+- Agregar la funcionalidad al registro para que ahora se agreguen a la base de datos los usuarios que se registran correctamente.
