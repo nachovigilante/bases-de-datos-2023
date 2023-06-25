@@ -1,0 +1,57 @@
+/* ----------- Importo las fuentes ----------- */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&display=swap');
+
+/* ---------- RESET ---------- */
+*{ /* Aplica a todos los elementos */
+    font-family: 'Montserrat', monospace; /* Cambia la fuente */
+    margin: 0; /* Elimina los margenes */
+    padding: 0; /* Elimina los espacios */
+    box-sizing: border-box;
+}
+
+/* ---------- Estilos ---------- */
+body{ /* Aplica al tag body */
+    padding: 50px; /* Añade 50px de espacio interior en los 4 lados */
+}
+
+h3{ /* Aplica a los subtítulos */
+    margin-top: 30px;
+    margin-bottom: 5px; /* Añade 20px de margen inferior */
+}
+
+.test-title{ /* Aplica al título del test */
+    font-size: 20px; /* Cambia el tamaño de la fuente */
+    font-weight: medium; /* Cambia el peso de la fuente */
+    margin-top: 10px; /* Añade 10px de margen superior */
+    margin-bottom: 5px; /* Añade 5px de margen inferior */
+}
+
+.test-cases{ /* Aplica al contenedor de casos de prueba */
+    list-style-type: none; /* Elimina el estilo de lista */
+}
+
+.test-cases li{ /* Aplica los casos de prueba */
+    padding: 10px; /* Añade 10px de espacio interior en los 4 lados */
+    border: 1px solid #ccc; /* Añade un borde */
+    border-radius: 7px; /* Añade un borde redondeado */
+}
+
+pre{ /* Aplica al contenedor de código */
+    background-color: rgb(41, 45, 62); /* Cambia el color de fondo */
+    padding: 10px; /* Añade 10px de espacio interior en los 4 lados */
+    border: 1px solid #ccc; /* Añade un borde */
+    border-radius: 7px; /* Añade un borde redondeado */
+
+}
+
+code{ /* Aplica a los códigos */
+    color: white; /* Cambia el color de la fuente */
+    font-family: 'Fira code', monospace; /* Cambia la fuente */;
+    font-weight: medium; /* Cambia el peso de la fuente */
+}
+
+code strong{ /* Aplica a los códigos en negrita */
+    font-weight: 500; /* Cambia el peso de la fuente */
+    font-family: 'Fira code', monospace; /* Cambia la fuente */;
+    color: rgb(137, 219, 249); /* Cambia el color de la fuente */
+}

@@ -1,0 +1,144 @@
+/* RESET */
+*{ /* Selector para TODOS los elementos */
+    margin: 0; /* Elimina los margenes */
+    padding: 0; /* Elimina los espacios dentro de los elementos */
+    box-sizing: border-box; /* Elimina el borde de los elementos */
+    font-family: 'Courier New', Courier, monospace; /* Cambia la fuente */
+}
+
+h1{ /* Selector para todos los elementos h1 */
+    font-size: 32px; /* Cambia el tamaño de la fuente */
+    text-align: center; /* Centra el texto */
+    color: white; /* Cambia el color del texto a blanco */
+    background-color: black; /* Cambia el color del fondo a negro */
+    padding: 16px; /* Cambia el espacio dentro del elemento */
+}
+
+.empleados{ /* Selector para todas las listas */
+    list-style: none; /* Saca la viñeta de la lista */
+    padding: 35px 15px; /* Cambia el espacio dentro del elemento (en vertical pone 35px y en horizontal pone 15px) */
+    display: flex; /* Hace que los elementos se ubiquen distinto dentro de la lista */
+    flex-wrap: wrap; /* Hace que los elementos se ubiquen "en forma de columnas" */
+    justify-content: center; /* "Centra las columnas" */
+}
+
+.empleados li{ /* Selector para todos los items dentro de la lista con la clase .empleados */
+    border: 1px solid grey; /* Cambia el borde */
+    border-radius: 5px; /* Agrega redondeo a las esquinas */
+    box-shadow: 3px 3px 6px 0px #d1d1d1; /* Agrega el sombreado */
+    padding: 15px; /* Cambia el espacio dentro del elemento */
+    margin-bottom: 20px; /* Agrega un margen debajo */
+    margin-right: 20px; /* Agrega un margen a la derecha */
+    width: 500px; /* Cambia el ancho del elemento */
+}
+
+.empleados li .edit{ /* Selector para todos los elementos con la clase .edit */
+    display: flex; /* Hace que los elementos se ubiquen distinto dentro del elemento */	
+    justify-content: space-between; /* "Centra las columnas" */
+    align-items: center; /* "Centra las filas" */
+    padding: 8px; /* Cambia el espacio dentro del elemento */
+    background-color: black; /* Cambia el color del fondo */
+    color: white; /* Cambia el color del texto */
+    border: none; /* Cambia el borde */
+    border-radius: 5px; /* Agrega redondeo a las esquinas */
+    font-weight: 700; /* Cambia el grosor de la fuente */
+    font-size: 15px; /* Cambia el tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor */
+    float: right; /* Hace que el elemento se ubique a la derecha */
+}
+
+.empleados li .edit:hover{ /* Selector para todos los elementos con la clase .edit cuando el mouse pasa por encima */
+    background-color: #6c6c6c; /* Cambia el color del fondo */
+}
+
+.empleados li .edit:active{ /* Selector para todos los elementos con la clase .edit cuando el mouse esta presionado */
+    background-color: #d4d4d4; /* Cambia el color del fondo */
+    color: black; /* Cambia el color del texto */
+}
+
+.dark{
+    background-color: rgba(0, 0, 0, 0.7); /* Cambia el color del fondo */
+    position: fixed; /* Hace que el elemento se ubique fijo */
+    top: 0; /* Hace que el elemento se ubique en la parte superior */
+    left: 0; /* Hace que el elemento se ubique en la parte izquierda */
+    width: 100%; /* Cambia el ancho del elemento */
+    height: 100%; /* Cambia el alto del elemento */
+    display: none;
+}
+
+.dark.active{
+    display: block;
+}
+
+#modal{
+    position: absolute; /* Hace que el elemento se ubique en una posicion absoluta */
+    background-color: white; /* Cambia el color del fondo */
+    border: 1px solid grey; /* Cambia el borde */
+    border-radius: 10px; /* Agrega redondeo a las esquinas */
+    padding: 30px 30px 20px; /* Cambia el espacio dentro del elemento */
+    z-index: 2; /* Para que se vea encima de todo (incluso arriba del .dark) */
+    box-shadow: 4px 4px 10px 6px rgba(0, 0, 0, 0.5); /* Agrega el sombreado */
+    font-size: 20px; /* Cambia el tamaño de la fuente */
+    top: 90px; /* Posicionamiento vertical */
+    left: 50%; /* Posicionamiento horizontal */
+    transform: translateX(-50%); /* Posicionamiento horizontal */
+    width: 350px; /* Cambia el ancho del elemento */
+    display: none;
+}
+
+#modal.active{
+    display: block;
+}
+
+#modal form{
+    display: flex; /* Hace que los elementos se ubiquen distinto dentro del elemento */
+    flex-direction: column; /* Hace que los elementos se ubiquen "en forma de columnas" */
+    justify-content: center; /* "Centra las columnas" */
+    align-items: flex-start; /* "Centra las filas" */
+}
+
+#modal form label{
+    margin-bottom: 10px; /* Agrega un margen debajo */
+    font-size: 20px; /* Cambia el tamaño de la fuente */
+    font-weight: 700; /* Cambia el grosor de la fuente */
+}
+
+#modal form input, #modal form select{
+    margin-bottom: 10px; /* Agrega un margen debajo */
+    padding: 10px; /* Cambia el espacio dentro del elemento */
+    border: 1px solid grey; /* Cambia el borde */
+    border-radius: 5px; /* Agrega redondeo a las esquinas */
+    font-size: 20px; /* Cambia el tamaño de la fuente */
+    font-weight: 700; /* Cambia el grosor de la fuente */
+    width: 100%; /* Cambia el ancho del elemento */
+}
+
+#modal .center{
+    display: flex; /* Hace que los elementos se ubiquen distinto dentro del elemento */
+    justify-content: center; /* "Centra las columnas" */
+    width: 100%; /* Cambia el ancho del elemento */
+    margin-top: 20px; /* Agrega un margen arriba */
+}
+
+#modal form input[name="dni"]{
+    background-color: #d4d4d4; /* Cambia el color del fondo */
+    cursor: not-allowed; /* Cambia el cursor */
+}
+
+#modal input[type="submit"]{
+    padding: 15px 20px; /* Cambia el espacio dentro del elemento */
+    background-color: black; /* Cambia el color del fondo */
+    color: white; /* Cambia el color del texto */
+    border: none; /* Cambia el borde */
+    cursor: pointer; /* Cambia el cursor */
+    float: right; /* Hace que el elemento se ubique a la derecha */
+}
+
+#modal input[type="submit"]:hover{
+    background-color: #6c6c6c; /* Cambia el color del fondo */
+}
+
+#modal input[type="submit"]:active{
+    background-color: #d4d4d4; /* Cambia el color del fondo */
+    color: black; /* Cambia el color del texto */
+}
