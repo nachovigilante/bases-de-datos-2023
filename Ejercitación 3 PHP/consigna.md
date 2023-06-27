@@ -11,6 +11,10 @@ La conformación de grupos es de **mínimo** 2 personas y **máximo** 3.
 
 La fecha límite de entrega de este trabajo es el **viernes 7 de julio a las 23:59hs**. Esta fecha es **inflexible** ya que durante el fin de semana se corregirán para que el lunes 10 se entreguen las notas. Cualquiera que no entregue el trabajo a tiempo tendrá que ir a PIA.
 
+## Entrega
+
+La entrega se realiza en [este formulario](https://forms.gle/dfqj18WxNCEmaqxm9). Deben entregar un `.zip` con **ÚNICAMNETE** el `index.php` y `edit.php`.
+
 ## Ejercicios
 
 ### Ejercicio 1
