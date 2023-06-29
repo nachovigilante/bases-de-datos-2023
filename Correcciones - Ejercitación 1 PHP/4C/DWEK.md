@@ -1,13 +1,13 @@
 # Notas DWEK
 
-| Función         | Nota            |
-| --------------- | --------------- |
-| boolToString    | Regular         |
-| showArray       | Bien            |
-| showAssociative | Bien            |
-| totalSum        | Bien            |
-| evens           | Mal             |
-| odds            | Mal             |
-| stringToArray   | Mal             |
-| charCount       | Mal             |
-| **Total**       | **Desaprobado** |
+| Función                    | Nota  |
+| -------------------------- | ----- |
+| boolToString               | Bien  |
+| showArray                  | Bien  |
+| showAssociative            | Bien  |
+| totalSum                   | Bien  |
+| evens                      | Bien  |
+| odds                       | Bien  |
+| stringToArray              | Bien  |
+| Penalización por reentrega | -1    |
+| **Total**                  | **9** |
